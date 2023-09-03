@@ -1,0 +1,33 @@
+h1{
+    color:blue;
+    background-color: green;
+    background-image: linear-gradient( to top,red,green);
+    font-size:30px;
+    width:50%;
+    height: 100%;
+    text-align:center;
+    text-decoration:underline;
+    text-decoration-style: wavy;
+    text-decoration-color: black;
+    text-decoration-thickness: 1px;
+    text-transform: capitalize;
+    
+
+}
+h1 span{
+    color: blue;
+}
+
+p{
+    font-size: 20px;
+    text-align: justify;
+    text-align-last: justify;
+    line-height:1.5;
+    word-spacing: 10;
+    font-weight: 100;
+}
+p::first-letter{
+    font-size: 35px;
+    color: red;
+
+}
